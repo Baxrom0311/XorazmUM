@@ -6,12 +6,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- DNS prefetch va preconnect -->
+    <link rel="preconnect" href="https://unpkg.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://pub-17dac008e73b46978ffc2eb4a1648e91.r2.dev" crossorigin>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" media="print" onload="this.media='all'" />
 
     <!-- PWA -->
     <link rel="manifest" href="manifest.json">
@@ -19,10 +22,11 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="Kitobxon">
-    <link rel="apple-touch-icon" href="images/icons/icon-152x152.png">
+    <link rel="apple-touch-icon" href="images/icons/icon-152x152.webp">
 
 </head>
 <body>
+
 
     
 <header>
@@ -67,7 +71,7 @@
                     <a href="#aloqa" class="btn">Hozir bog'lanish</a>
                 </div>
                 <div class="image">
-                    <img src="rasm/1111.jpg" alt="">
+                    <img src="rasm/1111.webp" alt="" loading="eager">
                 </div>
             </div>
 
@@ -79,7 +83,7 @@
                     <a href="#aloqa" class="btn">Hozir bog'lanish</a>
                 </div>
                 <div class="image">
-                    <img src="rasm/shaytanat.png" alt="">
+                    <img src="rasm/shaytanat.webp" alt="" loading="lazy">
                 </div>
             </div>
 
@@ -91,7 +95,7 @@
                     <a href="#aloqa" class="btn">Hozir bog'lanish</a>
                 </div>
                 <div class="image">
-                    <img src="rasm/kichkina_shaxzoda.png" alt="">
+                    <img src="rasm/kichkina_shaxzoda.webp" alt="" loading="lazy">
                 </div>
             </div>
 
@@ -113,14 +117,14 @@
         <div class="box">
             <a href="#" class="fas fa-heart"></a>
             <a href="#" class="fas fa-eye"></a>
-            <img src="rasm/kichkina_shaxzoda.png" alt="">
+            <img src="rasm/kichkina_shaxzoda.webp" alt="" loading="lazy" loading="lazy">
 
 
             <div style="max-width:400px; padding:15px; border-radius:10px; background:#f2f2f2;">
                 <h3>📚 Kichkina shahzoda</h3>
                 <h2>Muallif: Antoine de Saint-Exupéry</h2>
                 
-                <audio controls style="width:100%;">
+                <audio controls preload="none" style="width:100%;">
                   <source src="https://pub-17dac008e73b46978ffc2eb4a1648e91.r2.dev/Kichkina_Shahzoda.mp3" type="audio/mpeg">
                 </audio>
             </div>
@@ -130,14 +134,14 @@
         <div class="box">
             <a href="#" class="fas fa-heart"></a>
             <a href="#" class="fas fa-eye"></a>
-            <img src="rasm/molxona.jpg" alt="">
+            <img src="rasm/molxona.webp" alt="" loading="lazy">
 
 
             <div style="max-width:400px; padding:15px; border-radius:10px; background:#f2f2f2;">
                 <h3>📚 Molxona</h3>
                 <h2>Muallif: Jorj Oruell</h2>
                 
-                <audio controls style="width:100%;">
+                <audio controls preload="none" style="width:100%;">
                   <source src="https://pub-17dac008e73b46978ffc2eb4a1648e91.r2.dev/MOLXONA.mp3" type="audio/mpeg">
                 </audio>
             </div>
@@ -147,14 +151,14 @@
         <div class="box">
             <a href="#" class="fas fa-heart"></a>
             <a href="#" class="fas fa-eye"></a>
-            <img src="rasm/garri_poter.png" alt="">
+            <img src="rasm/garri_poter.webp" alt="" loading="lazy">
 
 
             <div style="max-width:400px; padding:15px; border-radius:10px; background:#f2f2f2;">
                 <h3>📚 Garri Potter</h3>
                 <h2>Muallif: J.K. Rowling</h2>
                 
-                <audio controls style="width:100%;">
+                <audio controls preload="none" style="width:100%;">
                   <source src="https://pub-17dac008e73b46978ffc2eb4a1648e91.r2.dev/garri.mp3" type="audio/mpeg">
                 </audio>
             </div>
@@ -167,14 +171,14 @@
 
 
 
-            <img src="rasm/mehrobdan.jpg" alt="">
+            <img src="rasm/mehrobdan.webp" alt="" loading="lazy">
 
 
             <div style="max-width:400px; padding:15px; border-radius:10px; background:#f2f2f2;">
                 <h3>📚 Mehrobdan Chayon</h3>
                 <h2>Muallif: Abdulla Qodiriy</h2>
                 
-                <audio controls style="width:100%;">
+                <audio controls preload="none" style="width:100%;">
                   <source src="https://pub-17dac008e73b46978ffc2eb4a1648e91.r2.dev/MEXROBDAN_CHAYON.mp3" type="audio/mpeg">
                 </audio>
             </div>
@@ -187,14 +191,14 @@
         <div class="box">
             <a href="#" class="fas fa-heart"></a>
             <a href="#" class="fas fa-eye"></a>
-            <img src="rasm/otkan_kunlar.png" alt="">
+            <img src="rasm/otkan_kunlar.webp" alt="" loading="lazy">
 
 
             <div style="max-width:400px; padding:15px; border-radius:10px; background:#f2f2f2;">
                 <h3>📚 O'tkan kunlar</h3>
                 <h2>Muallif: Abdulla Qodiriy</h2>
                 
-                <audio controls style="width:100%;">
+                <audio controls preload="none" style="width:100%;">
                   <source src="https://pub-17dac008e73b46978ffc2eb4a1648e91.r2.dev/Otkan_kunlar.mp3" type="audio/mpeg">
                 </audio>
             </div>
@@ -221,7 +225,7 @@
 
         <div class="box">
             <div class="image">
-                <img src="rasm/photo_5442746372298839413_y (1).jpg" alt="">
+                <img src="rasm/photo_5442746372298839413_y (1).webp" alt="" loading="lazy">
                 <a href="#" class="fas fa-heart"></a>
             </div>
         
@@ -239,7 +243,7 @@
                 <p>Ta'lim Markazi</p>
         
                 
-                <audio controls style="width:100%;">
+                <audio controls preload="none" style="width:100%;">
                     <source src="https://pub-17dac008e73b46978ffc2eb4a1648e91.r2.dev/Otkan_kunlar.mp3" type="audio/mpeg">
                   </audio>
         
@@ -247,7 +251,7 @@
         </div>
         <div class="box">
             <div class="image">
-                <img src="rasm/shaytanat.png" alt="">
+                <img src="rasm/shaytanat.webp" alt="" loading="lazy">
                 <a href="#" class="fas fa-heart"></a>
             </div>
             <div class="content">
@@ -260,7 +264,7 @@
                 <h3>XORAZM - KIMYO o'quv markazi</h3>
                 <p>Ta'lim Markazi</p>
                 
-                <audio controls style="width:100%;">
+                <audio controls preload="none" style="width:100%;">
                     <source src="https://pub-17dac008e73b46978ffc2eb4a1648e91.r2.dev/Otkan_kunlar.mp3" type="audio/mpeg">
                   </audio>
             </div>
@@ -268,7 +272,7 @@
 
         <div class="box">
             <div class="image">
-                <img src="rasm/fea7a2cd-92d1-4162-8c9e-bd668c44bfca.jpg" alt="">
+                <img src="rasm/fea7a2cd-92d1-4162-8c9e-bd668c44bfca.webp" alt="" loading="lazy">
                 <a href="#" class="fas fa-heart"></a>
             </div>
             <div class="content">
@@ -282,7 +286,7 @@
                 <h3>a1tech o'quv markazi</h3>
                 <p>Sifatli ta'lim markazi</p>
                 
-                <audio controls style="width:100%;">
+                <audio controls preload="none" style="width:100%;">
                     <source src="https://pub-17dac008e73b46978ffc2eb4a1648e91.r2.dev/Otkan_kunlar.mp3" type="audio/mpeg">
                   </audio>
             </div>
@@ -290,7 +294,7 @@
 
         <div class="box">
             <div class="image">
-                <img src="rasm/photo_5442746372298839408_y (1).jpg" alt="">
+                <img src="rasm/photo_5442746372298839408_y (1).webp" alt="" loading="lazy">
                 <a href="#" class="fas fa-heart"></a>
             </div>
             <div class="content">
@@ -304,116 +308,7 @@
                 <h3>NSP o'quv markazi</h3>
                 <p>Kelajakni biz bilan quring</p>
                 
-                <audio controls style="width:100%;">
-                    <source src="https://pub-17dac008e73b46978ffc2eb4a1648e91.r2.dev/Otkan_kunlar.mp3" type="audio/mpeg">
-                  </audio>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images/um-2.png" alt="">
-                <a href="#" class="fas fa-heart"></a>
-            </div>
-            <div class="content">
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-                <h3>Toshkent "Registon" o'quv markazi Urganch filiali</h3>
-                <p>Bilim kelajak kaliti</p>
-                
-                <audio controls style="width:100%;">
-                    <source src="https://pub-17dac008e73b46978ffc2eb4a1648e91.r2.dev/Otkan_kunlar.mp3" type="audio/mpeg">
-                  </audio>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images/um-3.png" alt="">
-                <a href="#" class="fas fa-heart"></a>
-            </div>
-            <div class="content">
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <h3>TARAQQIYOT FD o'quv markazi</h3>
-                <p>Taraqqiyot sari to'g'ri yo'l</p>
-                
-                <audio controls style="width:100%;">
-                    <source src="https://pub-17dac008e73b46978ffc2eb4a1648e91.r2.dev/Otkan_kunlar.mp3" type="audio/mpeg">
-                  </audio>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images/um-4.png" alt="">
-                <a href="#" class="fas fa-heart"></a>
-            </div>
-            <div class="content">
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-                <h3>Limitless Knowledge O'quv Markazi</h3>
-                <p>The best education center</p>
-                
-                <audio controls style="width:100%;">
-                    <source src="https://pub-17dac008e73b46978ffc2eb4a1648e91.r2.dev/Otkan_kunlar.mp3" type="audio/mpeg">
-                  </audio>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images/um-5.png" alt="">
-                <a href="#" class="fas fa-heart"></a>
-            </div>
-            <div class="content">
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-                <h3>Maximum o'quv markazi </h3>
-                <p>English language center!!!</p>
-                
-                <audio controls style="width:100%;">
-                    <source src="https://pub-17dac008e73b46978ffc2eb4a1648e91.r2.dev/Otkan_kunlar.mp3" type="audio/mpeg">
-                  </audio>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images/um-7.png" alt="">
-                <a href="#" class="fas fa-heart"></a>
-            </div>
-            <div class="content">
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-                <h3>Data learning centre</h3>
-                <p>Kelajak bizniki</p>
-               
-                <audio controls style="width:100%;">
+                <audio controls preload="none" style="width:100%;">
                     <source src="https://pub-17dac008e73b46978ffc2eb4a1648e91.r2.dev/Otkan_kunlar.mp3" type="audio/mpeg">
                   </audio>
             </div>
@@ -471,7 +366,7 @@
 
 <div id="install-modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.7);z-index:10001;align-items:center;justify-content:center;">
   <div style="background:#fff;border-radius:1.5rem;padding:3rem;max-width:35rem;width:90%;text-align:center;box-shadow:0 10px 40px rgba(0,0,0,.3);">
-    <img src="images/icons/icon-96x96.png" style="width:7rem;margin-bottom:1.5rem;border-radius:1rem;">
+    <img src="images/icons/icon-96x96.webp" style="width:7rem;margin-bottom:1.5rem;border-radius:1rem;">
     <h3 style="font-size:2.2rem;color:#192a56;margin-bottom:1rem;">Online Kitobxon</h3>
     <p style="font-size:1.5rem;color:#666;margin-bottom:2rem;">Ilovani telefoningizga o'rnating — tezroq va qulay ishlaydi!</p>
     <button onclick="installApp()" style="background:#27ae60;color:#fff;border:none;padding:1.2rem 3rem;border-radius:.8rem;font-size:1.6rem;cursor:pointer;width:100%;margin-bottom:1rem;">✅ O'rnatish</button>
@@ -485,11 +380,11 @@
 </style>
 
 <div class="loader-container">
-    <img src="images/pic-100.png" alt="">
+    <img src="images/pic-100.webp" alt="" loading="lazy">
 </div>
 
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script src="js/script.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+<script src="js/script.js" defer></script>
 <script>
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/sw.js');
